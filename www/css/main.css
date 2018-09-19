@@ -1,0 +1,80 @@
+body {
+  /* margin-left: 25%; */
+  /* margin-right: 25%; */
+  margin-top: 10%;
+  font-family: "Open Sans", sans-serif;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 500px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px;
+}
+
+h1, h2 {
+  /* display: inline-block; */
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align:center;
+
+}
+
+h2 {
+  color: #AAA;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 24px;
+}
+form label  {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 24px;
+  width : auto;
+}
+.black {
+  color: black;
+}
+
+#balance {
+  color: black;
+}
+
+.hint {
+  color: #666;
+  text-align: center;
+
+}
+#options{
+    height: 40px;
+    width: 90%;
+    font-size: 1.2em;
+}
+#dropdown{
+    font-size: 1.7em;
+}
+#token_info , #add_token{
+  width: 20%;
+  display: block;
+  margin: 20px auto;
+}
+.select, .token{
+    display: none;
+}
+.active{
+    display: block !important;
+}
